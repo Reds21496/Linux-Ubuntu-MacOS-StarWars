@@ -8,11 +8,15 @@ Source Files:
 - https://albertlauncher.github.io/installing/
 
 
-1. Instalar Google Chrome.
-2. Ejecutar el siguiente script (asignar permisos de ejecucion)
+1. Ejecutar el siguiente script (asignar permisos de ejecucion)
  
 ```
 #!/bin/bash
+
+#-------Instalar Chrome
+sudo apt install gdebi-core wget -y
+sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo gdebi google-chrome-stable_current_amd64.deb -y
 
 #-------Clonar repo y mover archivos
 sudo apt install git gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool -y
@@ -31,6 +35,7 @@ sudo apt install albert -y
 
 #-------Plank
 sudo add-apt-repository ppa:ricotz/docky
+echo
 sudo apt-get update
 sudo apt-get install plank -y
 
@@ -42,10 +47,10 @@ sudo mv ~/StarWarsTheme/themes/WhiteSur-light/plankBigSurLight /usr/share/plank/
 sudo apt remove gnome-shell-extension-ubuntu-dock -y
 ```
 
-3. Reiniciar el PC
-4. Habilitar GNOME extensions en Google: https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep
-5. Instalar User Themes: https://extensions.gnome.org/extension/19/user-themes/
-6. Configurar Background, Theme, Icons, Cursors, etc...
+2. Reiniciar el PC
+3. Habilitar GNOME extensions en Google: https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep
+4. Instalar User Themes: https://extensions.gnome.org/extension/19/user-themes/
+5. Configurar Background, Theme, Icons, Cursors, etc...
 ```
 gsettings set org.gnome.desktop.interface gtk-theme "WhiteSur-light"
 gsettings set org.gnome.desktop.interface icon-theme 'WhiteSur'
@@ -53,16 +58,16 @@ gsettings set org.gnome.desktop.interface cursor-theme 'McMojave-cursors'
 gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/darthvader.jpg'
 gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/darthvader.jpg'
 ```
-7. Seleccionar Shell en tweaks (retoques) -> Appearance -> Shell -> WhiteSur-dark
-8. Agregar Plank a las startup Applications en tweaks
-9. Configurar Plank a gusto (Seleccionar tema, opacidad y tamano)
+6. Seleccionar Shell en tweaks (retoques) -> Appearance -> Shell -> WhiteSur-dark
+7. Agregar Plank a las startup Applications en tweaks
+8. Configurar Plank a gusto (Seleccionar tema, opacidad y tamano)
 ```
 plank --preferences
 ```
 
-10. Abrir Albert y establecer hotkey, theme (spotlight), elegir extensiones y autostart login
-11. Instalar Arc Menu: https://extensions.gnome.org/extension/3628/arcmenu/
-12. Click Derecho en el logo del Arc Menu y Button Appearance. Seleccionar Icono: /usr/share/icons/ArcMenuLogo/ImperialLogoWhite.png
-13. (Opcional) Instalar Efecto Magic Lamp: https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
-14. (Opcional) Instalar Wobbly windows: https://extensions.gnome.org/extension/2950/compiz-alike-windows-effect/
-15. Reiniciar por ultima vez para que se ejecuten todos los cambios
+9. Abrir Albert y establecer hotkey, theme (spotlight), elegir extensiones y autostart login
+10. Instalar Arc Menu: https://extensions.gnome.org/extension/3628/arcmenu/
+11. Click Derecho en el logo del Arc Menu y Button Appearance. Seleccionar Icono: /usr/share/icons/ArcMenuLogo/ImperialLogoWhite.png
+12. (Opcional) Instalar Efecto Magic Lamp: https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
+13. (Opcional) Instalar Wobbly windows: https://extensions.gnome.org/extension/2950/compiz-alike-windows-effect/
+14. Reiniciar por ultima vez para que se ejecuten todos los cambios
