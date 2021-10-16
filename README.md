@@ -20,6 +20,7 @@ sudo git clone https://github.com/Reds21496/Linux-Ubuntu-MacOS-StarWars.git ~/St
 sudo cp -r ~/StarWarsTheme/themes/* /usr/share/themes/
 sudo cp -r ~/StarWarsTheme/icons/* /usr/share/icons
 sudo cp -r ~/StarWarsTheme/walls/* /usr/share/backgrounds/
+sudo apt install curl -y
 
 #-------Albert
 sudo curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add -
