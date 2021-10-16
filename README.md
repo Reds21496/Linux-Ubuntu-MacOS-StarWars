@@ -52,8 +52,8 @@ sudo apt remove gnome-shell-extension-ubuntu-dock -y
 ```
 plank --preferences
 ```
-9. Abrir Albert y establecer hotkey, theme (spotlight), elegir extensiones y autostart login
-10. Instalar Arc Menu: https://extensions.gnome.org/extension/3628/arcmenu/
-11. Click Derecho en el logo del Arc Menu y Button Appearance. Seleccionar Icono: /usr/share/icons/ArcMenuLogo/ImperialLogoWhite.png
-12. Instalar Efecto Magic Lamp: https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
-13. Reiniciar por ultima vez para que se ejecuten todos los cambios
+11. Abrir Albert y establecer hotkey, theme (spotlight), elegir extensiones y autostart login
+12. Instalar Arc Menu: https://extensions.gnome.org/extension/3628/arcmenu/
+13. Click Derecho en el logo del Arc Menu y Button Appearance. Seleccionar Icono: /usr/share/icons/ArcMenuLogo/ImperialLogoWhite.png
+14. Instalar Efecto Magic Lamp: https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
+15. Reiniciar por ultima vez para que se ejecuten todos los cambios
