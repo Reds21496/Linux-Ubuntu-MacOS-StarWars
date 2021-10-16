@@ -44,13 +44,16 @@ sudo apt remove gnome-shell-extension-ubuntu-dock -y
 3. Reiniciar el PC
 4. Habilitar GNOME extensions en Google: https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep
 5. Instalar User Themes: https://extensions.gnome.org/extension/19/user-themes/
-6. Seleccionar Temas en tweaks (retoques) -> Aplications -> Shell ->
-7. Configurar Plank a gusto (Seleccionar tema, opacidad y tamano):
+6. Seleccionar Temas en tweaks (retoques) -> Appearance -> Applications -> WhiteSur-light
+7. Seleccionar Cursor en tweaks (retoques) -> Appearance -> Cursor -> McMojave-cursors
+8. Seleccionar Icons en tweaks (retoques) -> Appearance -> Icons -> WhiteSur
+9. Seleccionar Shell en tweaks (retoques) -> Appearance -> Shell -> WhiteSur-dark
+10. Configurar Plank a gusto (Seleccionar tema, opacidad y tamano):
 ```
 plank --preferences
 ```
-8. Abrir Albert y establecer hotkey, theme (spotlight), elegir extensiones y autostart login
-9. Instalar Arc Menu: https://extensions.gnome.org/extension/3628/arcmenu/
-10. Click Derecho en el logo del Arc Menu y Button Appearance. Seleccionar Icono: /usr/share/icons/ArcMenuLogo/ImperialLogoWhite.png
-11. Instalar Efecto Magic Lamp: https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
-12. Reiniciar por ultima vez para que se ejecuten todos los cambios
+9. Abrir Albert y establecer hotkey, theme (spotlight), elegir extensiones y autostart login
+10. Instalar Arc Menu: https://extensions.gnome.org/extension/3628/arcmenu/
+11. Click Derecho en el logo del Arc Menu y Button Appearance. Seleccionar Icono: /usr/share/icons/ArcMenuLogo/ImperialLogoWhite.png
+12. Instalar Efecto Magic Lamp: https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
+13. Reiniciar por ultima vez para que se ejecuten todos los cambios
