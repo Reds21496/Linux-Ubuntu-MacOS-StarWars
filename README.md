@@ -63,5 +63,6 @@ plank --preferences
 11. Abrir Albert y establecer hotkey, theme (spotlight), elegir extensiones y autostart login
 12. Instalar Arc Menu: https://extensions.gnome.org/extension/3628/arcmenu/
 13. Click Derecho en el logo del Arc Menu y Button Appearance. Seleccionar Icono: /usr/share/icons/ArcMenuLogo/ImperialLogoWhite.png
-14. Instalar Efecto Magic Lamp: https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
-15. Reiniciar por ultima vez para que se ejecuten todos los cambios
+14. (Opcional) Instalar Efecto Magic Lamp: https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
+15. (Opcional) Instalar Wobbly windows: https://extensions.gnome.org/extension/2950/compiz-alike-windows-effect/
+16. Reiniciar por ultima vez para que se ejecuten todos los cambios
