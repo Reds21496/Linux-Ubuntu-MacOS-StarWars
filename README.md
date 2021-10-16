@@ -45,14 +45,21 @@ sudo apt remove gnome-shell-extension-ubuntu-dock -y
 3. Reiniciar el PC
 4. Habilitar GNOME extensions en Google: https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep
 5. Instalar User Themes: https://extensions.gnome.org/extension/19/user-themes/
-6. Seleccionar Temas en tweaks (retoques) -> Appearance -> Applications -> WhiteSur-light
-7. Seleccionar Cursor en tweaks (retoques) -> Appearance -> Cursor -> McMojave-cursors
-8. Seleccionar Icons en tweaks (retoques) -> Appearance -> Icons -> WhiteSur
-9. Seleccionar Shell en tweaks (retoques) -> Appearance -> Shell -> WhiteSur-dark
+6. Configurar Background, Theme, Icons, Cursors, etc...
+```
+gsettings set org.gnome.desktop.interface gtk-theme "WhiteSur-light"
+gsettings set org.gnome.desktop.interface icon-theme 'WhiteSur'
+gsettings set org.gnome.desktop.interface cursor-theme 'McMojave-cursors'
+gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/darthvader.jpg'
+gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/darthvader.jpg'
+```
+7. Seleccionar Shell en tweaks (retoques) -> Appearance -> Shell -> WhiteSur-dark
+9. Agregar Plank a las startup Applications en tweaks
 10. Configurar Plank a gusto (Seleccionar tema, opacidad y tamano):
 ```
 plank --preferences
 ```
+
 11. Abrir Albert y establecer hotkey, theme (spotlight), elegir extensiones y autostart login
 12. Instalar Arc Menu: https://extensions.gnome.org/extension/3628/arcmenu/
 13. Click Derecho en el logo del Arc Menu y Button Appearance. Seleccionar Icono: /usr/share/icons/ArcMenuLogo/ImperialLogoWhite.png
