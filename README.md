@@ -14,9 +14,11 @@ Source Files:
 #!/bin/bash
 
 #-------Instalar Chrome
-sudo apt install gdebi-core wget -y
+sudo apt update
+sudo apt upgrade -y
+sudo apt install wget
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo gdebi google-chrome-stable_current_amd64.deb -y
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 #-------Clonar repo y mover archivos
 sudo apt install git gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool -y
