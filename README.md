@@ -72,4 +72,7 @@ plank --preferences
 11. Click Derecho en el logo del Arc Menu y Button Appearance. Seleccionar Icono: /usr/share/icons/ArcMenuLogo/ImperialLogoWhite.png
 12. (Opcional) Instalar Efecto Magic Lamp: https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
 13. (Opcional) Instalar Wobbly windows: https://extensions.gnome.org/extension/2950/compiz-alike-windows-effect/
-14. Reiniciar por ultima vez para que se ejecuten todos los cambios
+14. (Opcional) Instalar Efecto Coverflow alt+tab: https://extensions.gnome.org/extension/97/coverflow-alt-tab/
+15. (Opcional) Instalar net-speed: https://extensions.gnome.org/extension/4478/net-speed/
+16. (Opcional) Instalar notificaciones transparentes: https://extensions.gnome.org/extension/1080/transparent-notification/
+17. Reiniciar por ultima vez para que se ejecuten todos los cambios
