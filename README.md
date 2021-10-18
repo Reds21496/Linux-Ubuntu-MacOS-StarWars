@@ -50,7 +50,7 @@ sudo apt remove gnome-shell-extension-ubuntu-dock -y
 ```
 
 2. Reiniciar el PC
-3. Habilitar GNOME extensions en Google: https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep
+3. Habilitar GNOME extensions en Google Chrome: https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep
 4. Instalar User Themes: https://extensions.gnome.org/extension/19/user-themes/
 5. Configurar Background, Theme, Icons, Cursors, etc...
 ```
