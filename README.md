@@ -8,7 +8,7 @@ Source Files:
 - https://albertlauncher.github.io/installing/
 
 
-1. Ejecutar el siguiente script (asignar permisos de ejecucion)
+1. Asignar permisos de ejecucion y ejecutar el siguiente script (puede ser requerido oprimir enter cuando el script se encuentra en ejecucion)
  
 ```
 #!/bin/bash
