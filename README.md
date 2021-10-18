@@ -36,8 +36,7 @@ sudo apt update
 sudo apt install albert -y
 
 #-------Plank
-sudo add-apt-repository ppa:ricotz/docky
-echo
+echo -ne '\n' | sudo add-apt-repository ppa:ricotz/docky
 sudo apt-get update
 sudo apt-get install plank -y
 
