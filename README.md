@@ -13,29 +13,30 @@ Source Files:
 ```
 #!/bin/bash
 
-#-------Instalar Chrome
+#-------Actualizar repositorios e instalar los programas necesarios
 sudo apt update
 sudo apt upgrade -y
-sudo apt install wget
+sudo apt install curl wget git gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool -y
+
+#-------Instalar Chrome
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 #-------Clonar repo y mover archivos
-sudo apt install git gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool -y
 sudo git clone https://github.com/Reds21496/Linux-Ubuntu-MacOS-StarWars.git ~/StarWarsTheme
 sudo cp -r ~/StarWarsTheme/themes/* /usr/share/themes/
 sudo cp -r ~/StarWarsTheme/icons/* /usr/share/icons
 sudo cp -r ~/StarWarsTheme/walls/* /usr/share/backgrounds/
 sudo apt install curl -y
 
-#-------Albert
+#-------Instalar Albert
 sudo curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add -
 sudo echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:manuelschneid3r.list
 sudo wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_20.04/Release.key -O "/etc/apt/trusted.gpg.d/home:manuelschneid3r.asc"
 sudo apt update
 sudo apt install albert -y
 
-#-------Plank
+#-------Instalar Plank
 echo -ne '\n' | sudo add-apt-repository ppa:ricotz/docky
 sudo apt-get update
 sudo apt-get install plank -y
