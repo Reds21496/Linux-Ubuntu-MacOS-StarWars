@@ -5,7 +5,7 @@ Source Files:
 - https://www.pling.com/p/1403328/
 - https://www.pling.com/p/1355701
 - https://www.gnome-look.org/p/1405756/
-- https://albertlauncher.github.io/installing/
+- https://ulauncher.io/
 
 
 1. Asignar permisos de ejecucion y ejecutar el siguiente script (puede ser requerido oprimir enter cuando el script se encuentra en ejecucion)
@@ -28,12 +28,13 @@ sudo cp -r ~/StarWarsTheme/themes/* /usr/share/themes/
 sudo cp -r ~/StarWarsTheme/icons/* /usr/share/icons
 sudo cp -r ~/StarWarsTheme/walls/* /usr/share/backgrounds/
 
-#-------Instalar Albert
-sudo curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add -
-sudo echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:manuelschneid3r.list
-sudo wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_20.04/Release.key -O "/etc/apt/trusted.gpg.d/home:manuelschneid3r.asc"
+#-------Instalar Ulauncher y tema White Sur
+echo -ne '\n' | sudo add-apt-repository ppa:agornostal/ulauncher
 sudo apt update
-sudo apt install albert -y
+sudo apt install ulauncher
+mkdir -p ~/.config/ulauncher/user-themes
+git clone https://github.com/Raayib/WhiteSur-Light-ulauncher.git \
+  ~/.config/ulauncher/user-themes/WhiteSur-Light-ulauncher
 
 #-------Instalar Plank
 echo -ne '\n' | sudo add-apt-repository ppa:ricotz/docky
@@ -66,7 +67,7 @@ gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backg
 plank --preferences
 ```
 
-9. Abrir Albert y establecer hotkey, theme (spotlight), elegir extensiones y autostart login
+9. Abrir Ulauncher y establecer autostart login
 10. Instalar Arc Menu: https://extensions.gnome.org/extension/3628/arcmenu/
 11. Click Derecho en el logo del Arc Menu y Button Appearance. Seleccionar Icono: /usr/share/icons/ArcMenuLogo/ImperialLogoWhite.png
 12. (Opcional) Instalar Efecto Magic Lamp: https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
@@ -74,4 +75,5 @@ plank --preferences
 14. (Opcional) Instalar Efecto Coverflow alt+tab: https://extensions.gnome.org/extension/97/coverflow-alt-tab/
 15. (Opcional) Instalar net-speed: https://extensions.gnome.org/extension/4478/net-speed/
 16. (Opcional) Instalar notificaciones transparentes: https://extensions.gnome.org/extension/1080/transparent-notification/
-17. Reiniciar por ultima vez para que se ejecuten todos los cambios
+17. (Opcional) Modificar Login Screen Background: https://www.omgubuntu.co.uk/2022/01/change-ubuntu-login-screen-background
+18. Reiniciar por ultima vez para que se ejecuten todos los cambios
