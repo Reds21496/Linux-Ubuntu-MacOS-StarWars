@@ -76,4 +76,12 @@ plank --preferences
 15. (Opcional) Instalar net-speed: https://extensions.gnome.org/extension/4478/net-speed/
 16. (Opcional) Instalar notificaciones transparentes: https://extensions.gnome.org/extension/1080/transparent-notification/
 17. (Opcional) Modificar Login Screen Background: https://www.omgubuntu.co.uk/2022/01/change-ubuntu-login-screen-background
-18. Reiniciar por ultima vez para que se ejecuten todos los cambios
+18. (Opcional) Modificar Scroll Speed (Probado en Ubuntu 20.04):
+    - Install imwheel and adjust (to make things work):
+      - Run sudo apt install imwheel
+      - Run bash <(curl -s http://www.nicknorton.net/mousewheel.sh)
+      - Using the slider adjust the scroll speed 'multiplier'. (I like it on 4/5)
+    - Add imwheel as a startup application (to make things continue working after restart):
+      - Open Apps -> Startup Applications
+      - Add a new entry to the bottom of the list: Name= Wheel Scroll Speed, Command= imwheel, Comment= Activates wheel scroll speed fix on system startup (or whatever you like)
+19. Reiniciar por ultima vez para que se ejecuten todos los cambios
